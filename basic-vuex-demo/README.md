@@ -1,7 +1,9 @@
 # basci-vuex-demo
 
 > 基本的记数功能
+
 项目构成：
+
 1. src->App.vue，包含Decrement.vue Increment.vue Display.vue。见名知意。
 2. src下建立vuex文件夹，包含store.js actions.js mutations.js getters.js
 3. src->main.js是入口文件，new的vue实例中加入store选项，从而使store能注入到所有子组件中
